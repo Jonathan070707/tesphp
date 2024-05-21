@@ -1,0 +1,186 @@
+.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.navigation_bar li {
+    float: left;
+}
+
+.navigation_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation_bar li a:hover {
+    color: #c80000;
+}
+
+.navigation_bar .active {
+    color: #c80000;
+}
+
+
+.no-transform {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: initial;
+}
+
+.no-transform li {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 0;
+}
+
+.boxheader {
+    background-color: #000000;
+    border-top: 2px solid rgb(204, 4, 4);
+    border-bottom: 4px solid rgb(204, 4, 4);
+    margin: 0;
+}
+
+.textheader {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2.5px 3px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+.boxheader.loaded .textheader {
+    opacity: 1;
+}
+
+.paragfaralignment {
+    text-align: center;
+    align-items: center;
+  }  
+
+  .tttengah{
+    text-align: center;
+  }
+.listpengalaman {
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    list-style-type: upper-roman;
+    padding-left: 0;
+    color: white;
+  }
+
+  .container {
+    text-align: center; 
+}
+
+.container img {
+    display: inline-block; 
+    margin: 0 auto; 
+}
+
+.paragraftengah {
+    color: white;
+    text-align: center; 
+}
+
+.paragraftengah {
+    display: inline-block; 
+    text-align: left; 
+    margin: 50px;
+    font-size: 20px;
+}
+
+.my-image {
+    width: 200px; 
+    height: auto; 
+    float: left;
+}
+
+.row {
+    display: flex;
+}
+
+.image-container {
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+
+.image-container img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    margin: 30px;
+  }
+  
+  h2 {
+    margin: 25px;
+  }
+  
+  h3 {
+    margin: 20px;
+  }
+  
+  .containerforboxforbottom {
+    position: relative;
+    min-height: 100vh; 
+  }
+  
+  .ccconten {
+    padding-bottom: 50px; 
+  }
+  
+  .boxforbottom {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    border-bottom: 3px solid rgb(204, 4, 4);
+    background-color: black;
+    
+  }
+
+  .footercontent {
+    color: white;
+    text-align: center;
+    margin: 15px;
+  }
+  
+.header{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.descnobgc{
+    padding: 15px;
+    text-align: justify;
+    text-align-last: center;
+    color: white;
+}
+
+.forhomepagetext{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+}

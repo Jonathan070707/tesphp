@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.containerforbg {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden; 
+  background-image: url('steinsgate0background.jpg');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.dacontent {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgb(199, 0, 0, 0.3);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+

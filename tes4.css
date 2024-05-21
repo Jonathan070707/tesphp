@@ -1,0 +1,69 @@
+.experiencetogglebox{
+    background-color: rgb(125, 33, 33);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.invistext{
+    display: none;
+}
+
+.button-red {
+    background-color: rgb(125, 33, 33);
+    color: white;
+}
+
+.button-redstay {
+    background-color: #ff0000;
+    color: white;
+}
+
+.experiencetogglebox:hover {
+    background-color: #c80000;
+}
+
+.experiencetogglebox .active {
+    background-color: #c80000;
+}
+
+.redfornavtext {
+    color: #c80000;
+}
+
+.ppset {
+    text-align: center;
+}
+
+.ppsettext {
+    color: white;
+}
+
+.ppsetbutton {
+    background-color: white;
+    color: #ff0000;
+    border-radius: 10px;
+    padding: 3px; 
+}
+
+.ppsetbutton:hover {
+    background-color: black;
+}
+
+.add-article-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.add-article-button:hover {
+    background-color: black;
+}
